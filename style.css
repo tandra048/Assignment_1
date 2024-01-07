@@ -67,6 +67,33 @@ line-height: 95px;
     display: flex;
     padding: 126px;
     background-repeat: no-repeat;
+    font-style: normal;
+}
+.welcome > h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.welcome>p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.welcome >h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.img{
+    right: 10px;
 }
 
 /* main section end here*/
