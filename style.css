@@ -1,8 +1,8 @@
 body{
     font-family: 'Merriweather', serif;
     width: 1600px;
-    height: 7335px;
     background-color: #FFF;
+    margin: 0 auto;
 }
 
 /* header section start*/
@@ -15,13 +15,16 @@ body{
     background-repeat: no-repeat;
     flex-shrink: 0;
     align-content: center;
+    max-width: 0 auto;
+    margin: 0 auto;
     
 }
 .header{
     color: white;
     text-align: center;
+    justify-content: center;
     font-style: normal;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 45%;
     transform: translate(-50%, -50%);
@@ -60,20 +63,22 @@ section> .header >h1{
 }
 
 .welcome{
-    margin: 130px;
+   
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100% ),url('./image/Vectorrr.png'); 
     height: 350px;
+    margin: 130px;
     color: #FFF;
     display: flex;
+    justify-content: center;
     padding: 126px;
     background-repeat: no-repeat;
     font-style: normal;
+    border-radius: 10px;
 }
 .welcome > h1{
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px;
     letter-spacing: 7.04px;
 }
 .welcome>p{
@@ -93,17 +98,20 @@ section> .header >h1{
     text-transform: uppercase;
 }
 .img{
-    right: 10px;
+    position: relative;
+    padding-left: 50px;
+    
 }
 
 .join{
     width: 1320px;
-    height: 482px;
-    background-color: pink;
-    margin: 0px 10px 20px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
     justify-content: center;
     text-align: center;
-    padding-top: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 0 auto;
+    margin: 0 auto;
 }
 span{
     color: #F00;
@@ -123,10 +131,11 @@ span{
 /* offer section start*/
 .offer-container{
     display: flex;
+    justify-content: center;
     background-color: white;
     width: 1600px;
-    height: 7335px;
-    margin: 40px;
+    max-width: 0 auto;
+    margin: 0 auto;
 }
 
 
@@ -170,5 +179,103 @@ span{
     color: #F00;
 }
 /* offer section end*/
+
+/* portfolio section start*/
+.portfolio{
+    background-color: white;
+    width: 1600px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+
+}
+.portfolio>div>h4{
+    color:red;
+}
+.portfolio>div>p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.image{
+    display:block;
+    
+}
+.image1st{
+    display: flex;
+}
+.image2nd{
+    display: flex;
+}
+
+/* portfolio section end*/
+
+/* subscribe section start*/
+.subscribe{
+    width: 1320px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+    max-width: 0 auto;
+}
+ div > form> label{
+    width: 648px;
+    border-radius: 50px;
+}
+
+/* subscribe section end*/
+
+/* footer section start*/
+footer{
+    width: 1600px;
+    flex-shrink: 0;
+    background-color: #070211;
+    color: white;
+    font-size: 24px;
+}
+.first-part{
+    display: flex;
+}
+.first-desc{
+    position: relative;
+    padding:120px 140px 50px;
+}
+.imgp{
+    position: relative;
+    padding-top: 120px;
+    bottom: 30%;
+    left: 20%;
+}
+.contact{
+    justify-content: center;
+    display: flex;
+    
+}
+.contact>img{
+    height: 60px;
+    width: 60px;
+    padding: 24px 12px;
+}
+
+.last-part{
+    display: flex;
+
+}
+#first{
+    position: relative;
+    padding:50px 140px 50px;
+}
+#second{
+    position: relative;
+    padding-top: 50px;
+    bottom: 30%;
+    left: 35%;
+}
+/* footer section end*/
 
 
