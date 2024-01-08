@@ -227,11 +227,27 @@ span{
     margin: 0 auto;
     max-width: 0 auto;
 }
- div > form> label{
-    width: 648px;
+ .form{
+    text-align: center;
+ }
+input{
+    width: 500px;
     border-radius: 50px;
+    height: 50px;
+    position: relative;
+    padding-left: 10px;
 }
-
+#form>button{
+    color: white;
+    position: relative;
+    width: 210px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    bottom: 20%;
+    right: 15%;
+}
 /* subscribe section end*/
 
 /* footer section start*/
