@@ -184,10 +184,8 @@ span{
 .portfolio{
     background-color: white;
     width: 1600px;
-    margin: 0 auto;
     display: block;
-    justify-content: center;
-
+    margin: 120px;
 }
 .portfolio>div>h4{
     color:red;
@@ -208,6 +206,12 @@ span{
 }
 .image2nd{
     display: flex;
+}
+.port{
+    margin: 5px;
+}
+.port:hover{
+    border: 2px solid black;
 }
 
 /* portfolio section end*/
