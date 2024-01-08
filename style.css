@@ -7,14 +7,14 @@ body{
 
 /* header section start*/
 .head-container{
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url(image/Banner\ Image.png);
+    
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('./image/Banner.png');
     height: 600px;
     width: 1320px;
     border-radius: 16px;
     background-repeat: no-repeat;
     flex-shrink: 0;
-
+    align-content: center;
     
 }
 .header{
@@ -28,15 +28,15 @@ body{
 }
 section> .header >h3{
     font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
 }
 section> .header >h1{
-font-size: 70px;
-font-weight: 800;
-line-height: 95px;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 95px;
 }
 /* header section end*/
 
@@ -60,9 +60,9 @@ line-height: 95px;
 }
 
 .welcome{
-    background-image: url('image/Vectorrr.png');
     margin: 130px;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100% ),url('./image/Vectorrr.png'); 
+    height: 350px;
     color: #FFF;
     display: flex;
     padding: 126px;
@@ -96,7 +96,79 @@ line-height: 95px;
     right: 10px;
 }
 
-/* main section end here*/
+.join{
+    width: 1320px;
+    height: 482px;
+    background-color: pink;
+    margin: 0px 10px 20px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+span{
+    color: #F00;
+    
 
-/* header section end*/
+}
+.btn{
+    background-color: #F00;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* offer section start*/
+.offer-container{
+    display: flex;
+    background-color: white;
+    width: 1600px;
+    height: 7335px;
+    margin: 40px;
+}
+
+
+#ellip{
+    width: 364px;
+    height: 364px;
+    border-radius: 364px;
+    padding:30px;
+    border: 10px solid red;
+    margin: 30px;
+}
+.offer-desc{
+    padding-right: 20px;
+}
+.offer-desc>p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    
+}
+.offer-desc>h3{
+    color: #F00;
+}
+.offer-desc>h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.offer-year{
+    padding-left: 20px;
+}
+.offer-year>h1{
+    font-size: 48px;
+    color: #F00;
+}
+/* offer section end*/
+
 
