@@ -180,6 +180,47 @@ span{
 }
 /* offer section end*/
 
+/* sell section start*/
+.sale-container{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 0 auto;
+}
+.sale-desc{
+    text-align: center;
+    justify-content: center;
+}
+
+.sale-desc>p{
+    color: rgba(1, 1, 1, 0.6);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+.sale-image{
+    display: flex;
+}
+.sale{
+    position: relative;
+}
+.img3{
+    top: 80px;
+    right: 580px;
+}
+.img4{
+    
+    bottom: -435px;
+    right: 1600px;
+}
+.img1{
+    z-index: 1;
+}
+/* sell section end*/
+
+
 
 
 /* portfolio section start*/
